@@ -1,0 +1,25 @@
+server:
+  port: 3000
+
+
+# developers.kakao에서 Application 등록 이후 REST API 키와, RedirectURL이 필요합니다. 아래에 넣어주세요.
+kakao:
+  authUrl: https://kauth.kakao.com/oauth/token
+  userApiUrl: https://kapi.kakao.com/v2/user/me
+  restapiKey: 74ebee2ef4f1a64983e1ec202b18146d
+  redirectUrl: http://localhost:8080
+
+logging:
+  level:
+    com.example.kakaologin: debug
+
+ 
+
+#server.port = 8080
+
+#spring.thymeleaf.prefix=classpath:templates/
+#spring.thymeleaf.check-template-location=true
+#spring.thymeleaf.suffix=.html
+#spring.thymeleaf.mode=HTML5
+#spring.thymeleaf.cache=false
+#spring.thymeleaf.order=0
